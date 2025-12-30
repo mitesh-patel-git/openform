@@ -2,6 +2,8 @@
 
 A beautiful, open-source TypeForm alternative. Create engaging forms with a one-question-at-a-time experience.
 
+![OpenForm Logo](logo.jpg)
+
 ## Features
 
 - **6 beautiful themes** - Midnight, Ocean, Sunset, Forest, Lavender, Minimal
