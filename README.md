@@ -19,8 +19,8 @@ A beautiful, open-source TypeForm alternative. Create engaging forms with a one-
 |------|-------------|
 | Short text | Single line text input |
 | Long text | Multi-line textarea |
-| Multiple choice | Select one option |
-| Multi select | Select multiple options |
+| Dropdown | Select one option |
+| Checkboxes | Select multiple options |
 | Email | Email with validation |
 | Phone | Phone number input |
 | Number | Numeric input |

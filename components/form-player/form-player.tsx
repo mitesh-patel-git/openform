@@ -408,7 +408,7 @@ export function FormPlayer({ form }: FormPlayerProps) {
                 className="mt-8 flex items-center gap-4"
               >
                 <Button
-                  onClick={goToNext}
+                  onClick={() => goToNext()}
                   disabled={isSubmitting}
                   className="h-12 px-6 text-base font-medium"
                   style={{ 
@@ -459,7 +459,7 @@ export function FormPlayer({ form }: FormPlayerProps) {
           <Button
             variant="ghost"
             size="sm"
-            onClick={goToNext}
+            onClick={() => goToNext()}
             disabled={isSubmitting}
             className="h-10 w-10 p-0"
             style={{ color: theme.textColor }}

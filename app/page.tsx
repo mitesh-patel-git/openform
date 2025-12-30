@@ -186,7 +186,7 @@ export default async function HomePage() {
           
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Short Text', 'Long Text', 'Multiple Choice', 'Multi Select',
+              'Short Text', 'Long Text', 'Dropdown', 'Checkboxes',
               'Email', 'Phone', 'Number', 'Date', 'Rating', 'Opinion Scale',
               'Yes/No', 'File Upload', 'Website URL'
             ].map((type) => (
