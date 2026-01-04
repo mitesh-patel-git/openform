@@ -7,14 +7,14 @@ import { Textarea } from '@/components/ui/textarea'
 import { motion } from 'framer-motion'
 import { Star, Upload, Check, X, FileText, Image as ImageIcon, Loader2, AlertCircle } from 'lucide-react'
 
-interface FileUploadValue {
+type FileUploadValue = {
   name: string
   url: string
   type: string
   size?: number
 }
 
-type FileUploadQuestionProps {
+interface FileUploadQuestionProps {
   question: QuestionConfig
   value: FileUploadValue | null
   onChange: (value: FileUploadValue | null) => void
