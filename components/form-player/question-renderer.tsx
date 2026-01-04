@@ -14,7 +14,7 @@ interface FileUploadValue {
   size?: number
 }
 
-interface FileUploadQuestionProps {
+type FileUploadQuestionProps {
   question: QuestionConfig
   value: FileUploadValue | null
   onChange: (value: FileUploadValue | null) => void
@@ -462,7 +462,7 @@ export function QuestionRenderer({
         <FileUploadQuestion
           question={question}
           value={value as FileUploadValue | null}
-          onChange={onChange}
+          onChange={(val) => onChange(val as unknown as Json)}
           theme={theme}
         />
       )
